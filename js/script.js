@@ -105,3 +105,17 @@ console.log(Number.isInteger("5"));
 console.log(Number.isInteger(NaN));
 console.log(Number.isInteger(Infinity));
 */
+
+/*
+console.log(Math.sqrt(25));
+console.log(Math.max(25, 12, 50));
+console.log(Math.min(25, 12, 50));
+
+console.log(Math.random() * 10); // 0 - 9
+console.log(Math.trunc(Math.random() * 10) + 1); // 1 - 10
+
+console.log(Math.trunc(Math.random() * 6) + 15); // 15 - 20
+
+console.log((2.3495).toFixed(2));
+console.log(typeof (2.2396).toFixed(2));
+*/
