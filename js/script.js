@@ -25,6 +25,7 @@ console.log(result);
 // return finalResult
 */
 
+/*
 // const arr = [[1, 2], [[3], 4], 5];
 // console.log(arr);
 
@@ -42,3 +43,23 @@ const flatMapResult = arr.flatMap((value) => [value]);
 
 console.log(mapResult);
 console.log(flatMapResult);
+*/
+
+const arr = [5, 12, 84, 36, 2];
+// [2, 5, ... , 84]
+
+// -1 => firstNumber secondNumber
+// 0 => do nothing
+// 1 => secondNumber firstNumber
+
+// const sortedResult = arr.sort((firstNumber, secondNumber) => {
+//   if (firstNumber < secondNumber) {
+//     return -1; // 5 8 => firstNumber - secondNumber = -3
+//   } else {
+//     return 1; // 7 5 => firstNumber - secondNumber = 2
+//   }
+// });
+
+const sortedResult = arr.sort((a, b) => b - a);
+
+console.log(sortedResult);
