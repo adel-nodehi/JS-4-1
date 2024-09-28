@@ -81,3 +81,27 @@ while (input !== 10) {
   input = Number(prompt("Enter an number:"));
 }
 */
+
+/*
+console.log(Number("23"));
+console.log(+"23");
+
+console.log(Number.parseInt("30.5px"));
+console.log(Number.parseFloat("30.5px"));
+
+console.log(Number.isNaN(30));
+console.log(Number.isNaN("30"));
+console.log(Number.isNaN(+"30px"));
+
+console.log(Number.isFinite(5));
+console.log(Number.isFinite(5.5));
+console.log(Number.isFinite("5"));
+console.log(Number.isFinite(NaN));
+console.log(Number.isFinite(Infinity));
+
+console.log(Number.isInteger(52));
+console.log(Number.isInteger(52.5));
+console.log(Number.isInteger("5"));
+console.log(Number.isInteger(NaN));
+console.log(Number.isInteger(Infinity));
+*/
