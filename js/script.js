@@ -1,8 +1,13 @@
-const numbers = [3, 4, 6, 1];
+const numbers = [-5, -1, -8, -2];
 
-const result = numbers.reduce((accumulator, currentValue) => {
-  return accumulator + currentValue;
-}, 0);
+const result = numbers.reduce((acc, curValue) => {
+  // if (acc < curValue) {
+  //   return curValue;
+  // } else {
+  //   return acc;
+  // }
+  return acc < curValue ? curValue : acc;
+}, numbers[0]);
 
 console.log(result);
 
