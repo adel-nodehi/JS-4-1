@@ -45,6 +45,7 @@ console.log(mapResult);
 console.log(flatMapResult);
 */
 
+/*
 const arr = [5, 12, 84, 36, 2];
 // [2, 5, ... , 84]
 
@@ -63,3 +64,20 @@ const arr = [5, 12, 84, 36, 2];
 const sortedResult = arr.sort((a, b) => b - a);
 
 console.log(sortedResult);
+*/
+
+/*
+// let i = 1;
+
+// while (i <= 10) {
+//   console.log(i);
+//   i++;
+// }
+
+let input = Number(prompt("Enter an number:"));
+
+while (input !== 10) {
+  console.log(input);
+  input = Number(prompt("Enter an number:"));
+}
+*/
